@@ -326,7 +326,13 @@ function waitForEnterPrompt(prompt) {
   console.log(JSON.stringify(final, null, 2).slice(0, 1000) + "..."); // brief preview
 
   await browser.close();
-  const outputPath = path.join(process.cwd(), 'shared', 'udyam_form_schema.json');
+  const outputPath = path.join(
+  __dirname,
+  '..',
+  'backend',
+  'shared',
+  'udyam_form_schema.json'
+);
   
   // Ensure folder exists
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
