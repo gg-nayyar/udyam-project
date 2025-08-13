@@ -1,0 +1,229 @@
+{
+  "metadataExtractedAt": "2025-08-13T12:48:33.059Z",
+  "step1": {
+    "inputs": [
+      {
+        "tag": "input",
+        "id": "ctl00_ContentPlaceHolder1_txtadharno",
+        "name": "ctl00$ContentPlaceHolder1$txtadharno",
+        "type": "text",
+        "placeholder": "Your Aadhaar No",
+        "value": null,
+        "maxlength": 12,
+        "minlength": null,
+        "required": false,
+        "disabled": false,
+        "classList": [
+          "form-control"
+        ],
+        "label": "Your Aadhaar No",
+        "validationPattern": null,
+        "ariaLabel": null,
+        "title": null
+      },
+      {
+        "tag": "input",
+        "id": "ctl00_ContentPlaceHolder1_txtownername",
+        "name": "ctl00$ContentPlaceHolder1$txtownername",
+        "type": "text",
+        "placeholder": "Name as per Aadhaar",
+        "value": null,
+        "maxlength": 100,
+        "minlength": null,
+        "required": false,
+        "disabled": false,
+        "classList": [
+          "form-control"
+        ],
+        "label": "Name as per Aadhaar",
+        "validationPattern": null,
+        "ariaLabel": null,
+        "title": null
+      }
+    ],
+    "selects": [],
+    "buttons": []
+  },
+  "step2": {
+    "inputs": [
+      {
+        "tag": "input",
+        "id": "ctl00_ContentPlaceHolder1_rbpanyesno_0",
+        "name": "ctl00$ContentPlaceHolder1$rbpanyesno",
+        "type": "radio",
+        "placeholder": null,
+        "value": "1",
+        "maxlength": null,
+        "minlength": null,
+        "required": false,
+        "disabled": false,
+        "classList": [],
+        "label": "Yes",
+        "validationPattern": null,
+        "ariaLabel": null,
+        "title": null
+      },
+      {
+        "tag": "input",
+        "id": "ctl00_ContentPlaceHolder1_rbpanyesno_1",
+        "name": "ctl00$ContentPlaceHolder1$rbpanyesno",
+        "type": "radio",
+        "placeholder": null,
+        "value": "2",
+        "maxlength": null,
+        "minlength": null,
+        "required": false,
+        "disabled": false,
+        "classList": [],
+        "label": "No",
+        "validationPattern": null,
+        "ariaLabel": null,
+        "title": null
+      },
+      {
+        "tag": "input",
+        "id": "ctl00_ContentPlaceHolder1_txtPan",
+        "name": "ctl00$ContentPlaceHolder1$txtPan",
+        "type": "text",
+        "placeholder": "Enter Pan Number",
+        "value": null,
+        "maxlength": 10,
+        "minlength": null,
+        "required": false,
+        "disabled": false,
+        "classList": [
+          "form-control"
+        ],
+        "label": "Enter Pan Number",
+        "validationPattern": null,
+        "ariaLabel": null,
+        "title": null
+      }
+    ],
+    "selects": [
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlTypeofOrg",
+        "name": "ctl00$ContentPlaceHolder1$ddlTypeofOrg",
+        "label": "ctl00$ContentPlaceHolder1$ddlTypeofOrg",
+        "options": [
+          {
+            "value": "0",
+            "text": "Type of Organisation / संगठन के प्रकार",
+            "selected": false
+          },
+          {
+            "value": "1",
+            "text": "1. Proprietary / एकल स्वामित्व",
+            "selected": false
+          },
+          {
+            "value": "2",
+            "text": "2. Hindu Undivided Family / हिंदू अविभाजित परिवार (एचयूएफ)",
+            "selected": false
+          },
+          {
+            "value": "3",
+            "text": "3. Partnership / पार्टनरशिप",
+            "selected": true
+          },
+          {
+            "value": "4",
+            "text": "4. Co-Operative / सहकारी",
+            "selected": false
+          },
+          {
+            "value": "5",
+            "text": "5. Private Limited Company / प्राइवेट लिमिटेड कंपनी",
+            "selected": false
+          },
+          {
+            "value": "6",
+            "text": "6. Public Limited Company / पब्लिक लिमिटेड कंपनी",
+            "selected": false
+          },
+          {
+            "value": "7",
+            "text": "7. Self Help Group / स्वयं सहायता समूह",
+            "selected": false
+          },
+          {
+            "value": "9",
+            "text": "8. Limited Liability Partenership / सीमित दायित्व भागीदारी",
+            "selected": false
+          },
+          {
+            "value": "10",
+            "text": "9. Society / सोसाईटी",
+            "selected": false
+          },
+          {
+            "value": "11",
+            "text": "10. Trust / ट्रस्ट",
+            "selected": false
+          },
+          {
+            "value": "8",
+            "text": "11. Others / अन्य",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "buttons": []
+  },
+  "extractedValidationPatterns": {
+    "aadhaar": "^[0-9]{12}$",
+    "rawRegexes": [
+      "/\"],[15,\"aL\"]],[17,[15,\"aI\"],\"host\"]]]]]],[36,[0,[0,[0,[15,\"aK\"],[17,[15,\"aI\"],\"pathname\"]],[17,[15,\"aI\"],\"search\"]],[17,[15,\"aI\"],\"hash\"]]]],[50,\"aA\",[46,\"aI\",\"aJ\"],[41,\"aK\"],[3,\"aK\",[2,[15,\"aI\"],\"replace\",[7,[15,\"m\"],[15,\"q\"]]]],[22,[30,[20,[15,\"aJ\"],[17,[15,\"r\"],\"URL\"]],[20,[15,\"aJ\"],[17,[15,\"r\"],\"PATH\"]]],[46,[53,[52,\"aL\",[\"y\",[15,\"aK\"],[15,\"aJ\"]]],[22,[20,[15,\"aL\"],[44]],[46,[36,[15,\"aK\"]]]],[52,\"aM\",[17,[15,\"aL\"],\"search\"]],[52,\"aN\",[2,[15,\"aM\"],\"replace\",[7,[15,\"n\"],[15,\"q\"]]]],[22,[20,[15,\"aM\"],[15,\"aN\"]],[46,[36,[15,\"aK\"]]]],[43,[15,\"aL\"],\"search\",[15,\"aN\"]],[3,\"aK\",[\"z\",[15,\"aL\"],[15,\"aJ\"]]]]]],[36,[15,\"aK\"]]],[50,\"aB\",[46,\"aI\"],[22,[20,[15,\"aI\"],[15,\"p\"]],[46,[53,[36,[17,[15,\"r\"],\"PATH\"]]]],[46,[22,[21,[2,[15,\"o\"],\"indexOf\",[7,[15,\"aI\"]]],[27,1]],[46,[53,[36,[17,[15,\"r\"],\"URL\"]]]],[46,[53,[36,[17,[15,\"r\"],\"TEXT\"]]]]]]]],[50,\"aC\",[46,\"aI\",\"aJ\"],[41,\"aK\"],[3,\"aK\",false],[52,\"aL\",[\"e\",[15,\"aI\"]]],[38,[15,\"aL\"],[46,\"string\",\"array\",\"object\"],[46,[5,[46,[52,\"aM\",[\"aA\",[15,\"aI\"],[15,\"aJ\"]]],[22,[21,[15,\"aI\"],[15,\"aM\"]],[46,[53,[36,[15,\"aM\"]]]]],[4]]],[5,[46,[53,[41,\"aN\"],[3,\"aN\",0],[63,[7,\"aN\"],[23,[15,\"aN\"],[17,[15,\"aI\"],\"length\"]],[33,[15,\"aN\"],[3,\"aN\",[0,[15,\"aN\"],1]]],[46,[53,[52,\"aO\",[\"aC\",[16,[15,\"aI\"],[15,\"aN\"]],[17,[15,\"r\"],\"TEXT\"]]],[22,[21,[15,\"aO\"],[44]],[46,[53,[43,[15,\"aI\"],[15,\"aN\"],[15,\"aO\"]],[3,\"aK\",true]]]]]]]],[4]]],[5,[46,[54,\"aN\",[15,\"aI\"],[46,[53,[52,\"aO\",[\"aC\",[16,[15,\"aI\"],[15,\"aN\"]],[17,[15,\"r\"],\"TEXT\"]]],[22,[21,[15,\"aO\"],[44]],[46,[53,[43,[15,\"aI\"],[15,\"aN\"],[15,\"aO\"]],[3,\"aK\",true]]]]]]],[4]]]]],[36,[39,[15,\"aK\"],[15,\"aI\"],[44]]]],[50,\"aH\",[46,\"aI\",\"aJ\"],[52,\"aK\",[30,[2,[15,\"aI\"],\"getMetadata\",[7,[17,[15,\"h\"],\"W\"]]],[7]]],[22,[20,[2,[15,\"aK\"],\"indexOf\",[7,[15,\"aJ\"]]],[27,1]],[46,[53,[2,[15,\"aK\"],\"push\",[7,[15,\"aJ\"]]]]]],[2,[15,\"aI\"],\"setMetadata\",[7,[17,[15,\"h\"],\"W\"],[15,\"aK\"]]]],[52,\"b\",[\"require\",\"internal.createRegex\"]],[52,\"c\",[\"require\",\"decodeUriComponent\"]],[52,\"d\",[\"require\",\"encodeUriComponent\"]],[52,\"e\",[\"require\",\"getType\"]],[52,\"f\",[\"require\",\"parseUrl\"]],[52,\"g\",[\"require\",\"internal.registerCcdCallback\"]],[52,\"h\",[15,\"__module_metadataSchema\"]],[52,\"i\",[17,[15,\"a\"],\"instanceDestinationId\"]],[52,\"j\",[17,[15,\"a\"],\"redactEmail\"]],[52,\"k\",[17,[15,\"a\"],\"redactQueryParams\"]],[52,\"l\",[39,[15,\"k\"],[2,[15,\"k\"],\"split\",[7,\",\"]],[7]]],[22,[1,[28,[17,[15,\"l\"],\"length\"]],[28,[15,\"j\"]]],[46,[53,[2,[15,\"a\"],\"gtmOnSuccess\",[7]],[36]]]],[52,\"m\",[\"b\",\"[A-Z0-9._%+-]+@[A-Z0-9.-]+\\\\.[A-Z]{2,}\",\"gi\"]],[52,\"n\",[\"b\",[0,\"([A-Z0-9._-]|%25|%2B)+%40[A-Z0-9.-]\",\"+\\\\.[A-Z]{2,}\"],\"gi\"]],[52,\"o\",[7,\"page_location\",\"page_referrer\",\"page_path\",\"link_url\",\"video_url\",\"form_destination\"]],[52,\"p\",\"page_path\"],[52,\"q\",\"(redacted)\"],[52,\"r\",[8,\"TEXT\",0,\"URL\",1,\"PATH\",2]],[52,\"s\",[8]],[52,\"t\",[\"b\",\"([\\\\\\\\^$.|?*+(){}]|\\\\[|\\\\[)\",\"g\"]],[52,\"x\",\"http:/",
+      "/wxAYQp/",
+      "/gARIlAG606fZWSt5HE9xlDlh5NDGA8FGjWhLrzTibS57xWZnK/",
+      "/adservice.google.com/",
+      "/regclk\",\"37\":\"__TAGGY_INSTALLED\",\"38\":\"cct.google\",\"39\":\"googTaggyReferrer\",\"40\":\"https:/",
+      "/cct.google/",
+      "/agent.js\",\"41\":\"google.tagmanager.ta.prodqueue\",\"42\":0.01,\"43\":\"{\\\"keys\\\":[{\\\"hpkePublicKey\\\":{\\\"params\\\":{\\\"aead\\\":\\\"AES_128_GCM\\\",\\\"kdf\\\":\\\"HKDF_SHA256\\\",\\\"kem\\\":\\\"DHKEM_P256_HKDF_SHA256\\\"},\\\"publicKey\\\":\\\"BPcMY4fsp+xES97IUnvkaK1chAKPj4gD5TAKAy/",
+      "/8gwUvX5QI1Q8c+rBH7ZMgnaXyyVEozOpIVzK4IMbrkSo=\\\",\\\"version\\\":0},\\\"id\\\":\\\"b79d84fb-1921-4603-8545-6b2b77aa7664\\\"},{\\\"hpkePublicKey\\\":{\\\"params\\\":{\\\"aead\\\":\\\"AES_128_GCM\\\",\\\"kdf\\\":\\\"HKDF_SHA256\\\",\\\"kem\\\":\\\"DHKEM_P256_HKDF_SHA256\\\"},\\\"publicKey\\\":\\\"BOTWsc4sz7qgPAT5z5v9nAhbN0HbYJ3n0k+XtyxAOKH0O8IOrj/",
+      "/C921qS6qFzu8WZU83NF+CHCm6EcjbI=\\\",\\\"version\\\":0},\\\"id\\\":\\\"b4e76da4-066b-4e31-81ff-cfe237090fc6\\\"},{\\\"hpkePublicKey\\\":{\\\"params\\\":{\\\"aead\\\":\\\"AES_128_GCM\\\",\\\"kdf\\\":\\\"HKDF_SHA256\\\",\\\"kem\\\":\\\"DHKEM_P256_HKDF_SHA256\\\"},\\\"publicKey\\\":\\\"BNTo1UwLrQjGtBDXouIfnhRF67V/",
+      "/j2/s",
+      "/uQJA=\\\",\\\"version\\\":0},\\\"id\\\":\\\"859db29b-eb19-425a-8c33-e6d5186ec416\\\"},{\\\"hpkePublicKey\\\":{\\\"params\\\":{\\\"aead\\\":\\\"AES_128_GCM\\\",\\\"kdf\\\":\\\"HKDF_SHA256\\\",\\\"kem\\\":\\\"DHKEM_P256_HKDF_SHA256\\\"},\\\"publicKey\\\":\\\"BL7WjQtqBhxxTwjGfAG71d0f98vhXJ/",
+      "/XF/",
+      "/^[\\s\\xa0]*$/",
+      "/\\.+$/",
+      "/^\\s+|\\s+$/g",
+      "/^\\w{1,9}$/",
+      "/[?#]/",
+      "/\\+/g",
+      "/\\/",
+      "/g,\"_\").replace(/",
+      "/,\"\");break a}catch(e){}b=void 0}return b};/",
+      "/^[^:]*([/",
+      "/.test(a)})];function jc(a){var b;b=b===void 0?ic:b;if(a instanceof ec)return a;for(var c=0;c<b.length;++c){var d=b[c];if(d instanceof fc&&d.Kp(a))return new ec(a)}}var kc=/",
+      "/?#]*(?:[/",
+      "/\")||Bc(\"EdgA/",
+      "/\")===0)return 2;if(a.indexOf(\"http:/",
+      "/^[\\s\\xa0]+/g",
+      "/[\\s\\xa0]+$/g",
+      "/(\\xa0+|\\s{2,}|\\n|\\r\\t)/g",
+      "/div>\"),f=Wb(),g=f?f.createHTML(e):e;d=new oc(g);if(c.nodeType===1&&/",
+      "/^https?:\\/",
+      "/,\"\"));return e}};/",
+      "/\\[object (Boolean|Number|String|Function|Array|Date|RegExp)\\]/",
+      "/^[1-9a-zA-Z_-][1-9a-c][1-9a-v]\\d$/",
+      "/~/g",
+      "/\",5),n=0;n<m.length;n++){var p=b,q=wg[n],r=m[n];p.hasOwnProperty(q)||(p[q]=r)}else if(c<27){var t=String.fromCharCode(c<10?48+c:65+c-10);b[\"k\"+t]=(\"\"+String(e)).replace(/",
+      "/^[a-z$_][\\w-$]*$/i",
+      "/^(?:[a-z_$][a-z-_$0-9]*\\.)*[a-z_$][a-z-_$0-9]*(?:\\.\\*)?$/i",
+      "/^([a-z][a-z0-9]*):(!|\\?)(\\*|string|boolean|number|Fn|PixieMap|List|OpaqueValue)$/i",
+      "/^[0-9A-Fa-f]{64}$/",
+      "/^e\\d+$/",
+      "/I5KHizDzMbUkCue69ux2OJ6gwXz2fTzjtgNg7IGEznhBK2WI\\x3d\\x22,\\x22version\\x22:0},\\x22id\\x22:\\x22e92d2de2-3719-4cae-85b9-e540e2cd1d3b\\x22},{\\x22hpkePublicKey\\x22:{\\x22params\\x22:{\\x22aead\\x22:\\x22AES_128_GCM\\x22,\\x22kdf\\x22:\\x22HKDF_SHA256\\x22,\\x22kem\\x22:\\x22DHKEM_P256_HKDF_SHA256\\x22},\\x22publicKey\\x22:\\x22BCElsvvZv2hcWNlnJwjmvwjV6xPJzqSJQ85yVWqn7b/",
+      "/xEg3F/",
+      "/Q98JEzlyjnDyFfCNb1cHEdvzWUTl8O5BPKHn5kR2g7vjJFoIZ/",
+      "/s/u",
+      "/ol/",
+      "/rIZ5gt/s",
+      "/\\s/g",
+      "/[\\s-()/",
+      "/g,\"\");a.charAt(0)!==\"+\"&&(a=\"+\"+a);return Rj.test(a)?a:\"e0\"},Ij=function(a){var b=a.toLowerCase().split(\"@\");if(b.length===2){var c=b[0];/"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "This is a web scraper package made with the puppeteer tool, it identifies all input fields, labels, validation rules (e.g., PAN/Aadhaarformats), and UI components (dropdowns, buttons) from the Udyam portal’s first two steps.",
+  "license": "ISC",
+  "author": "Krish Nayyar",
+  "type": "module",
+  "main": "udyamScraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^24.16.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
